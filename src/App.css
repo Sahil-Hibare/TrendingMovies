@@ -57,7 +57,9 @@
   position:absolute;
   top:40vh;
   left:5vw;
-  color:crimson;
+  font-size: 2rem;
+  color: yellow;
+
 }
 
 
@@ -67,6 +69,7 @@
   left:5vw;
   height:4.5rem;
   overflow: hidden;
+  color: white;
   margin-right: 5vw;
 }
 .movies-list{
@@ -77,8 +80,8 @@
   position:relative;
 }
 .movies-card{
-  width: 20vw;
-  height: 30vh;
+  width: 15rem;
+  height: 10rem;
   margin: 1rem;
 
    
@@ -93,12 +96,14 @@ color: white;
 .movies-button{
   position: absolute;
   bottom:2rem;
-  width:80%
+  width:80%;
+  font-size: 0.7rem;
    
 
 }
 .button-wrapper{
   display: flex;
+  flex-shrink: 1.2;
   justify-content: center;
   font-size: 0.5rem;
 }
@@ -106,6 +111,25 @@ color: white;
   display: flex;
   justify-content: center;
 }
+
+.fav-genres{
+  padding: 3rem;
+}
+.fav-table{
+  padding:3rem;
+  overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen  and (max-width:400px){
   .banner-card{

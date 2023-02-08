@@ -1,5 +1,6 @@
 //////https://api.themoviedb.org/3/trending/all/day?api_key=<<api_key>>
 /////api key ='d6352f1204227244dd9842b409f17076'
+//// <input type='number' className= "input-group-text col" placeholder='Rows Count' value={this.state.limit} onChange={(e)=>this.setState({limit:e.target.value})}/>
 /////https://api.themoviedb.org/3/trending/all/day?api_key=d6352f1204227244dd9842b409f17076&language=en-US&page=1
 ////image link : https://image.tmdb.org/t/p/original/ahS4r0ZYbNC85iTdMtcGojHJVgy.jpg
 
